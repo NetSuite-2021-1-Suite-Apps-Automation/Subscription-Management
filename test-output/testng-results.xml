@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1885072" started-at="2021-04-07T10:51:06Z" finished-at="2021-04-07T11:22:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1885072" started-at="2021-04-07T10:51:06Z" finished-at="2021-04-07T11:22:31Z">
+      <class name="com.qa.testcases.SubscriptionManagement">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.testcases.SubscriptionManagement@29ca901e]" name="setExtent" is-config="true" duration-ms="301" started-at="2021-04-07T10:51:06Z" finished-at="2021-04-07T10:51:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.SubscriptionManagement@29ca901e]" name="setUp" is-config="true" duration-ms="13646" started-at="2021-04-07T10:51:07Z" finished-at="2021-04-07T10:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Billing()[pri:1, instance:com.qa.testcases.SubscriptionManagement@29ca901e]" name="Billing" duration-ms="230849" started-at="2021-04-07T10:51:20Z" finished-at="2021-04-07T10:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Billing -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.SubscriptionManagement@29ca901e]" name="tearDown" is-config="true" duration-ms="786" started-at="2021-04-07T10:55:11Z" finished-at="2021-04-07T10:55:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Billing status=SUCCESS method=SubscriptionManagement.Billing()[pri:1, instance:com.qa.testcases.SubscriptionManagement@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.SubscriptionManagement@29ca901e]" name="setUp" is-config="true" duration-ms="14197" started-at="2021-04-07T10:55:12Z" finished-at="2021-04-07T10:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Subscription()[pri:2, instance:com.qa.testcases.SubscriptionManagement@29ca901e]" name="Subscription" duration-ms="1288906" started-at="2021-04-07T10:55:26Z" finished-at="2021-04-07T11:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subscription -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.SubscriptionManagement@29ca901e]" name="tearDown" is-config="true" duration-ms="1020" started-at="2021-04-07T11:16:55Z" finished-at="2021-04-07T11:16:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Subscription status=SUCCESS method=SubscriptionManagement.Subscription()[pri:2, instance:com.qa.testcases.SubscriptionManagement@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.SubscriptionManagement@29ca901e]" name="setUp" is-config="true" duration-ms="12534" started-at="2021-04-07T11:16:56Z" finished-at="2021-04-07T11:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cancel()[pri:3, instance:com.qa.testcases.SubscriptionManagement@29ca901e]" name="cancel" duration-ms="316948" started-at="2021-04-07T11:17:09Z" finished-at="2021-04-07T11:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancel -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.SubscriptionManagement@29ca901e]" name="tearDown" is-config="true" duration-ms="778" started-at="2021-04-07T11:22:26Z" finished-at="2021-04-07T11:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancel status=SUCCESS method=SubscriptionManagement.cancel()[pri:3, instance:com.qa.testcases.SubscriptionManagement@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.testcases.SubscriptionManagement@29ca901e]" name="endReport" is-config="true" duration-ms="5077" started-at="2021-04-07T11:22:26Z" finished-at="2021-04-07T11:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.qa.testcases.SubscriptionManagement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
